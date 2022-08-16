@@ -1,6 +1,6 @@
 package entity
 
-//Student object for REST(CRUD)
+// Student object for REST(CRUD)
 type Student struct {
 	ID     int    `json:"ID" gorm:"primaryKey"`
 	RollNo int    `json:"rollNo" gorm:"unique"`

@@ -3,7 +3,7 @@ package database
 import (
 	"log"
 
-	"Student-Registry/entity"
+	"github.com/kartik-iitk/Student-Registry/entity"
 
 	"github.com/jinzhu/gorm"
 )
